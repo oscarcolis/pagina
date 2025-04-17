@@ -6,6 +6,16 @@ body{
     font-family: 'Raleway', sans-serif;
     
 }
+table{
+    background-color: #f8f9fa; 
+}
+table th{
+background-color:aqua
+}
+
+table td{
+background-color: beige;
+}
 table, th, td{
    border:1px solid black;
    border-collapse: collapse;
@@ -17,4 +27,12 @@ th, td{
 
 th{
     text-align: left;;
+}
+#tabla2 {
+    margin-top: 40px; /* Espacio entre tablas */
+    background-color: #f8f9fa; /* Fondo ligeramente diferente */
+}
+
+#tabla2 th {
+    background-color: #e9ecef; /* Color de encabezado diferente */
 }
