@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap');
+
+/* Fondo de la página (imagen) */
+body {
+    background-image: url(Interstellar-logo.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh; /* Cubre toda la pantalla */
+    margin: 0;
+    padding: 20px;
+}
+.box h1{
+    text-align: center;
+}
+.bx-img {
+    width: 150px; /* Ancho deseado (ajústalo) */
+    height: auto; /* Altura automática para mantener proporción */
+    margin: 0 auto; /* Centrar la imagen */
+    overflow: hidden; /* Recorta el exceso si es necesario */
+    border-radius: 10px; /* Bordes redondeados opcionales */
+}
+ 
+/* Estilo para la imagen dentro del contenedor */
+.bx-img img {
+    width: 100%; /* Ocupa el 100% del contenedor (.bx-img) */
+    height: auto; /* Mantiene la proporción */
+    border-radius: 3rem;
+    display: block; /* Elimina espacio fantasma debajo de la imagen */
+}
+/* Caja con transparencia máxima */
+.box {
+    padding: 35px;
+    background: rgba(255, 255, 255, 0.1); /* Fondo casi transparente (10% opacidad) */
+    border-radius: 3rem;
+    width: 80%;
+    margin: 0 auto;
+    backdrop-filter: blur(2px); /* Desenfoque MUY ligero (opcional) */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Borde sutil */
+}
+
+/* Texto legible sobre fondos claros/oscuros */
+.box h1, 
+.box p, 
+.box h4 {
+    color:blanchedalmond; /* Color del texto */
+    text-shadow: 
+        1px 1px 2px black, /* Sombra negra */
+        -1px -1px}
+
+        /* Contenedor principal (flexbox) */
+.in-box {
+    display: flex;          /* Activa flexbox */
+    align-items: center;    /* Centra verticalmente los elementos */
+    gap: 20px;             /* Espacio entre imagen y texto */
+}
+
+/* Estilo para la imagen (ya lo tienes) */
+.bx-img {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Contenedor del texto y estrellas */
+.bxx-text {
+    flex: 1;               /* Ocupa el espacio restante */
+}
+
+/* Estilo para las estrellas (opcional) */
+.ratings {
+    margin-top: 5px;       /* Espacio entre nombre y estrellas */
+}
